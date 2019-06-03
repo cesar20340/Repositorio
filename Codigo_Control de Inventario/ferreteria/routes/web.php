@@ -12,10 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('prueba');
+    return view('inicio');
 });
 
-Route::get('/home', function () {
-    return view('/home');
+Route::get('/principal', function () {
+        return view('/principal');
 });
-Route::get('prueba', 'controller1@prueba');
+Route::get('/tabla1', function () {
+    return view('/tabla1');
+});
+Route::get('inicio', 'controller1@prueba');
+Route::resource('tabla','tabla_controller');
+Route::resource('tabla1','tabla_controller');
