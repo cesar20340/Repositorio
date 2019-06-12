@@ -12,8 +12,9 @@
 
 ## Instrucciones
 
-Instrucciones para la instalación del software y scripts que permitan su ejecución y/o creación
+Se debe copiar la carpeta del codigo c_stock en la carpeta htdocs de xamp
+luego hacer la conexion correcta con los puertos a ocupar, dentro del codigo, en el archivo db.php segun los datos correspondientes de la base de dato con la cual se requiere hacer conexion.
 
 ## Conclusiones del proyecto
 
-El proyecto...
+Si bien el local comercial consta de un manejo de inventario en forma de “Excel” este no es suficiente para poder combatir con la problemática actual de la institución, puesto que al realizar cualquier compra o venta de activos la digitación de los productos se debe realizar de forma manual, haciendo que el proceso sea mucho más tedioso y lento de lo que fuera si es que tuviera un software dedicado a solucionar este problema. Por lo cual este software ayudaria a optimizar ese proceso 
