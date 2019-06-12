@@ -5,7 +5,7 @@
 | Ítem | Enlace | Descripción  |
 |:----:|:-------|:------------:|
 | Diseño base de datos | [Enlace](https://github.com/cesar20340/Repositorio/blob/master/c_stock.sql/) | UML o similar con el diseño de la base de datos|
-| Mockups | [Enlace](https://github.com/ngunsu/ejemplo_taller/blob/master/mockups/) | Diseño de las vistas|
+| Mockups | [Enlace](https://github.com/cesar20340/Repositorio/tree/master/Mockup) | Diseño de las vistas|
 | Diagramas UML| [Enlace] |Casos de usos de alto nivel y detallados, diagrama de secuencias,etc|
 | Código | [Enlace](https://github.com/cesar20340/Repositorio/tree/master/Codigo_Control%20de%20Inventario/c_stock) | Carpeta que contiene el código fuente|
 | Pruebas de aplicación| [Enlace]|resultados y scripts|
