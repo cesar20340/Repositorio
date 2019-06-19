@@ -27,13 +27,13 @@
 			  <div class="form-group">
 				<label for="user_name" class="col-sm-3 control-label">Usuario</label>
 				<div class="col-sm-8">
-				  <input type="text" class="form-control" id="user_name" name="user_name" placeholder="Usuario" pattern="[a-zA-Z0-9]{2,64}" title="Nombre de usuario ( sólo letras y números, 2-64 caracteres)"required>
+				  <input type="text" class="form-control" id="user_name" name="user_name" placeholder="( sólo letras y números, 2-64 caracteres)" pattern="[a-zA-Z0-9]{2,64}" title="Nombre de usuario ( sólo letras y números, 2-64 caracteres)"required>
 				</div>
 			  </div>
 			  <div class="form-group">
 				<label for="user_email" class="col-sm-3 control-label">Email</label>
 				<div class="col-sm-8">
-				  <input type="email" class="form-control" id="user_email" name="user_email" placeholder="Correo electrónico" required>
+				  <input type="email" class="form-control" id="user_email" name="user_email" placeholder="ejemplo@correo.cl" required>
 				</div>
 			  </div>
 			  <div class="form-group">
