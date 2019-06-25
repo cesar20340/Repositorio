@@ -11,7 +11,7 @@
 | Pruebas de aplicación| [Enlace]|resultados y scripts|
 
 ## Instrucciones
-Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ que si ya tenéis instalado en el ordenador o servidor, bastaría con ejecutar desde la consola el siguiente comando:
+Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ y desde la consola:
 
 $mysql -u admin -p
 
