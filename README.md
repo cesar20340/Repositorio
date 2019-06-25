@@ -6,11 +6,27 @@
 |:----:|:-------|:------------:|
 | Diseño base de datos | [Enlace](https://github.com/cesar20340/Repositorio/blob/master/Dise%C3%B1o%20de%20base%20de%20datos.jpg) | UML o similar con el diseño de la base de datos|
 | Mockups | [Enlace](https://github.com/cesar20340/Repositorio/tree/master/Mockup) | Diseño de las vistas|
-| Diagramas UML| [Enlace] |Casos de usos de alto nivel y detallados, diagrama de secuencias,etc|
+| Diagramas UML| [Enlace](https://github.com/cesar20340/Repositorio/blob/master/Diagrama.png)|Casos de usos de alto nivel y detallados, diagrama de secuencias,etc|
 | Código | [Enlace](https://github.com/cesar20340/Repositorio/tree/master/Codigo_Control%20de%20Inventario/c_stock) | Carpeta que contiene el código fuente|
 | Pruebas de aplicación| [Enlace]|resultados y scripts|
 
 ## Instrucciones
+Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ y desde la consola:
+
+$mysql -u admin -p
+
+Es posible que no tengáis contraseña si estáis utilizando algún paquete como XAMPP o similar. En ese caso bastaría con poner el siguiente comando:
+
+$mysql -u root
+
+Para crear la base de datos «productos» introducimos el siguiente comando:
+
+CREATE DATABASE fg_giordano;
+
+Por consiguiente, para el ejemplo que nos ocupa introducimos el siguiente comando para usar la base de datos «fg_giordano»:
+
+USE fg_giordano;
+
 
 Se debe copiar la carpeta del codigo c_stock en la carpeta htdocs de xamp
 luego hacer la conexion correcta con los puertos a ocupar, dentro del codigo, en el archivo db.php segun los datos correspondientes de la base de dato con la cual se requiere hacer conexion.
