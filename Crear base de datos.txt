@@ -1,0 +1,8 @@
+Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ que si ya tenéis instalado en el ordenador o servidor, bastaría con ejecutar desde la consola el siguiente comando:
+$mysql -u usuario -p
+Es posible que no tengáis contraseña si estáis utilizando algún paquete como XAMPP o similar. En ese caso bastaría con poner el siguiente comando:
+$mysql -u root
+Para crear la base de datos «productos» introducimos el siguiente comando:
+CREATE DATABASE productos;
+Por consiguiente, para el ejemplo que nos ocupa introducimos el siguiente comando para usar la base de datos «productos»:
+USE productos;
