@@ -11,6 +11,14 @@
 | Pruebas de aplicación| [Enlace]|resultados y scripts|
 
 ## Instrucciones
+Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ que si ya tenéis instalado en el ordenador o servidor, bastaría con ejecutar desde la consola el siguiente comando:
+$mysql -u admin -p
+Es posible que no tengáis contraseña si estáis utilizando algún paquete como XAMPP o similar. En ese caso bastaría con poner el siguiente comando:
+$mysql -u root
+Para crear la base de datos «productos» introducimos el siguiente comando:
+CREATE DATABASE fg_giordano;
+Por consiguiente, para el ejemplo que nos ocupa introducimos el siguiente comando para usar la base de datos «fg_giordano»:
+USE fg_giordano;
 
 Se debe copiar la carpeta del codigo c_stock en la carpeta htdocs de xamp
 luego hacer la conexion correcta con los puertos a ocupar, dentro del codigo, en el archivo db.php segun los datos correspondientes de la base de dato con la cual se requiere hacer conexion.
