@@ -11,22 +11,17 @@
 | Pruebas de aplicación| [Enlace]|resultados y scripts|
 
 ## Instrucciones
-Lo primero que tenemos que hacer para poder ejecutar comandos es ejecutar el programa ‘mysql‘ y desde la consola:
+Lo primero es conectarnos a la base de datos con el siguiente comando:
 
-$mysql -u admin -p
+mysql -u <username> -p <database>
+  
+Donde remplazas <username> por tu nombre de usuario y <database> por el nombre de la base de datos (vacía) en la que vas a importar tu backup. Entonces se te pedirá el password.
+  
+Una vez dentro ejecutas el siguiente comando
 
-Es posible que no tengas contraseña si estáis utilizando algún paquete como XAMPP o similar. En ese caso bastaría con poner el siguiente comando:
+source <database.sql>
 
-$mysql -u root
-
-Para crear la base de datos «fg_giordano» introducimos el siguiente comando:
-
-CREATE DATABASE fg_giordano;
-
-Por consiguiente, para el ejemplo que nos ocupa introducimos el siguiente comando para usar la base de datos «fg_giordano»:
-
-USE fg_giordano;
-
+Donde remplazas <database.sql> por la ruta al backup. En mi caso, uso la ruta completa partiendo desde C:/ aunque la ruta relativa a tu instalación de MySQL también debería funcionar.
 
 Se debe copiar la carpeta del codigo c_stock en la carpeta htdocs de XAMPP
 luego hacer la conexion correcta con los puertos a ocupar, dentro del codigo, en el archivo db.php segun los datos correspondientes de la base de dato con la cual se requiere hacer conexion.
